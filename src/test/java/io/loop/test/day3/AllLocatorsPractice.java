@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class AllLocatorsPractice {
 
     public static void main(String[] args) {
-
+        // 1
         // create driver
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
