@@ -13,7 +13,6 @@ public class WebDriverUtil {
     }
 
     /**
-     *
      * @param browserType
      * @return the driver of that browser
      * @author nsh

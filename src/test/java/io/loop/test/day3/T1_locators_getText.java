@@ -22,7 +22,6 @@ public class T1_locators_getText {
 //Advisor:      b1g2_advisor@gmail.com    Group2
 //Employee:      b1g2_employee@gmail.com    Group2
     public static void main(String[] args) {
-
         WebDriver driver = WebDriverUtil.getDriver("chrome");
         driver.manage().window().maximize();
         driver.get("https://beta.docuport.app");

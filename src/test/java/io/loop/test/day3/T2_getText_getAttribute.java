@@ -28,5 +28,18 @@ public class T2_getText_getAttribute {
         }
 
 
+        WebElement firstNamePlaceholder = driver.findElement(By.name("firstname"));
+        String actualPlaceholderForFirstname = firstNamePlaceholder.getAttribute("placeholder");
+
+        System.out.println(actualPlaceholderForFirstname);
+
+        if(actualPlaceholderForFirstname.equals(LoopCampConstants.EXPECTED_PLACEHOLDER_FIRSTNAME)) {
+            System.out.println("Expected placeholder matches with actual");
+            System.out.println("TEST PASSED");
+        } else {
+            System.err.println("Expected placeholder DOESNT match with actual");
+            System.err.println("TEST FAILED");
+        }
+
     }
 }
